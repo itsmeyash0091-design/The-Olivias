@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Permanent+Marker&family=Revalia&family=Rouge+Script&family=Shojumaru&family=WDXL+Lubrifont+SC&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(217, 218, 195);
+}
+
+nav {
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 15px 60px;
+    z-index: 1000;  
+    position: fixed;
+    width: 100%;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family:"ZCOOL KuaiLe",  sans-serif ;
+    color: antiquewhite;
+    font-size: 32px;
+}
+
+.intro {
+    background-image: url("../imh/depositphotos_197176726-stock-photo-top-view-various-makeup-tools.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.intro > h1 {
+    font-family: "Raleway",sans-serif;
+    font-size: 56px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.intro > p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main {
+    background-color: aliceblue;
+    box-shadow: 10px 10px 10px rgba(red, green, rgb(14, 14, 14),1 );
+    margin: 4%;
+    border-radius: 12px;
+    box-shadow: 4px 3px 3px 3px rgba(14, 14, 14, 0.3);
+    padding: 0px 30px;
+}
+
+.main h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0, 60px;
+}
+
+.main > h1 {
+    padding: 20px;
+}
+
+.name_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-bottom: 20px; 
+    padding: 8px 0;    
+    border-bottom: 1px solid rgba(0,0,0,0.1);  
+}
+
+.name_price h1, 
+.name_price p {
+    font-size: 18px;
+    line-height: 1.2;  
+    margin: 0;         
+}
+
+.name_price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name > h1 {
+    padding-bottom: 15px;
+}
+
+
+
